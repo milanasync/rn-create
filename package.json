@@ -1,0 +1,35 @@
+{
+  "name": "rn-create",
+  "version": "1.0.5",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rn-create": "./bin/index.js"
+  },
+  "keywords": [
+    "react-native cli",
+    "generate react native component using cli",
+    "generate navigation using cli",
+    "react-navigation component in one go",
+    "react-native integrate redux"
+  ],
+  "author": "milanasyncdev <milanasyncdev@gmail.com> ",
+  "homepage": "https://github.com/milanasync/rn-create.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milanasync/rn-create.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milanasync/rn-create/issues",
+    "email": "milanasyncdev@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "yargs": "^13.2.4"
+  }
+}
